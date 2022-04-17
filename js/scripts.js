@@ -10,9 +10,9 @@ $(document).ready(function() {
     $("#cpp").hide();
     $("#golang").hide();
     $("#malbolge").hide();
-    if(runningTotal === 5 | runningTotal === 6 | runningTotal === 7 | runningTotal === 8 | runningTotal === 9) {
+    if(runningTotal === 5 || runningTotal === 6 || runningTotal === 7 || runningTotal === 8 || runningTotal === 9) {
       $("#cpp").show();
-    } else if(runningTotal === 10 | runningTotal === 11 | runningTotal === 12 | runningTotal === 13 | runningTotal === 14) {
+    } else if(runningTotal === 10 || runningTotal === 11 || runningTotal === 12 || runningTotal === 13 || runningTotal === 14) {
       $("#golang").show();
     } else if(runningTotal === 15) {
       $("#malbolge").show();
